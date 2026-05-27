@@ -29,13 +29,6 @@ Este projeto tem como objetivo prever a popularidade de anime com base em caract
 - Criação de variáveis auxiliares
 - Tratamento de categorias
 
-### 3. Feature Engineering
-- One-Hot Encoding (gêneros, estúdio, source)
-- Criação de:
-  - `members_log`
-  - `Engajamento_log`
-  - `score_missing`
-
 ### 4. Modelagem
 Modelos utilizados:
 - Random Forest Regressor
@@ -81,6 +74,8 @@ Comparações realizadas:
   - Duração
   - Season
   - Força do estúdio
+  - Google Trends como variavel
 - Reduzir dependência de variáveis dominantes
-- Melhorar generalização
+- Implementacão de contexto como variavel
+  
 
